@@ -1,0 +1,38 @@
+.tours{
+    margin-bottom: 139px;
+}
+
+.tours__tour{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 108px;
+    align-items: center;
+    margin-bottom: 77px;
+}
+
+
+.tour__title{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 85px;
+
+}
+
+.tour__desk{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 58px;
+}
+
+.tour__more{
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--color-accent);
+    padding-right: 59px;
+    background: url(../img/svg/strelka.svg) no-repeat right center;
+}
+
+.tour__more:hover, .tour__more:focus{
+    opacity: .65;
+}
